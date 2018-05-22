@@ -1,0 +1,103 @@
+.calendar {
+    padding-top: 200px;
+    // margin: 0 auto;
+  
+    h1 {
+        text-align: center;
+        height: 40px;
+    }
+
+    .calendar_picker {
+
+          display: flex;
+          justify-content: center;
+
+       .input_container {
+           position: relative;
+
+            input {
+              margin: 0 60px;
+              width: 200px;
+             
+        } 
+
+        .pick_day {
+
+        position: absolute;
+        top: 45px;
+        left: 30px;
+        //odtąd styluje kalendarz
+        width: 270px;
+        height: 230px;
+        background-color: white;
+
+        span:nth-of-type(1) {
+            left: 60px;
+            top: 4%;
+            border: solid black;
+            border-width: 0 2px 2px 0;
+            display: inline-block;
+            padding: 3px;
+            position: absolute;
+            transform: rotate(135deg); 
+        }
+
+        span:nth-of-type(2) {
+            position: absolute;
+            right: 60px;
+            top: 4%;
+            border: solid black;
+            border-width: 0 2px 2px 0;
+            display: inline-block;
+            padding: 3px;
+            transform: rotate(-45deg)
+        }
+
+        h3 {
+            text-align: center;
+            margin: 5px 0;
+
+        }
+        .week_day {
+            display: flex;
+            list-style: none;
+            justify-content: space-evenly;
+            height: 15px;
+            font-style: oblique; 
+        }
+        .month_day {
+            display: flex;
+            flex-wrap: wrap;
+            list-style: none;
+            margin: 10px 12px;
+
+        
+
+            li {
+                height: 35px;
+                width: 35px;
+                text-align: center;
+                line-height: 35px;
+                
+
+                &:hover {
+                    background-color: red;
+                }
+            }
+        }
+        }
+       }   
+
+       
+
+      
+        
+
+    }
+
+    
+}
+
+.pick_start {
+    background-color: red;
+}

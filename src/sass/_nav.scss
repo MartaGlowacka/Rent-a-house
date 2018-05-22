@@ -1,0 +1,23 @@
+nav {
+    position: fixed;
+    min-width: 100%;
+    height: 50px;
+    background-color: black;
+    z-index: 1900;
+    color: white;
+    margin-top: 10px;
+ 
+
+     ul {
+         background-color: 55 220 131;
+         display: flex;
+         list-style: none;
+         justify-content: space-evenly;
+        
+
+         li {
+             line-height: 50px;
+         }
+
+     }
+}

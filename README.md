@@ -1,1 +1,1 @@
-Rent w house in Bieszczady!
+Rent a house in Bieszczady!

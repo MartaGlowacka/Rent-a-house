@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+   
+}
+
+
+    body {
+        position: relative;
+        font-family: 'Lato', sans-serif;
+        background-image: url("../images/fotok.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: relative;
+        min-width: 250px;
+        min-height: 100vh;
+        padding-bottom: 40px;
+        opacity: 0.8;
+      }
+
+
+.wrapper {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 0.8em;
+  }
+
+
+
+  .lower {
+      padding-top: 120px;
+  }
